@@ -18,7 +18,7 @@ import { AuthModule } from './auth/auth.module';
       password: 'secret',
       database: 'equipment_db',
       autoLoadEntities: true,
-      synchronize: false,
+      synchronize: true,
     }),
     UsersModule,
     CategoriesModule,
